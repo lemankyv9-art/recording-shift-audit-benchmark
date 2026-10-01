@@ -88,6 +88,11 @@ def classify_code(label):
     s = str(label).strip().lower()
     if s in ("nan", ""):
         return "na"
+    # 无值标签的数值字段（如 SLEEP24HRS）：9999 = Unknown，8888 = No driver present
+    if s in ("9999", "9999.0"):
+        return "unknown"
+    if s in ("8888", "8888.0"):
+        return "na"
     if "no par obtained" in s:
         return "no_par"
     if "not reported" in s or "did not indicate" in s:
