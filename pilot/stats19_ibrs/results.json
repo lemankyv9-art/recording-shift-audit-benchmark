@@ -1,0 +1,291 @@
+{
+  "n_collisions": 100927,
+  "ibrs_counts": {
+    "1": 59297,
+    "0": 41630
+  },
+  "ibrs_share_pct": 58.7524,
+  "step1_raw_priors_pct": {
+    "IBRS": {
+      "n": 59297,
+      "fatal_pct": 1.7707,
+      "serious_pct": 26.686,
+      "slight_pct": 71.5432
+    },
+    "non_IBRS": {
+      "n": 41630,
+      "fatal_pct": 1.0858,
+      "serious_pct": 18.5996,
+      "slight_pct": 80.3147
+    }
+  },
+  "step1_serious_gap_pp": 8.0864,
+  "step2_domain_classifier": {
+    "content_only": {
+      "n": 100924,
+      "AUROC": 0.6907,
+      "AP": 0.7249
+    },
+    "as_stored_incl_schema_split": {
+      "n": 100924,
+      "AUROC": 1.0,
+      "AP": 1.0
+    }
+  },
+  "step3_missing_top": [
+    {
+      "field": "local_authority_district",
+      "IBRS_missing_pct": 100.0,
+      "nonIBRS_missing_pct": 100.0,
+      "delta_pp": 0.0
+    },
+    {
+      "field": "pedestrian_crossing_human_control_historic",
+      "IBRS_missing_pct": 100.0,
+      "nonIBRS_missing_pct": 0.0024,
+      "delta_pp": 99.9976
+    },
+    {
+      "field": "carriageway_hazards_historic",
+      "IBRS_missing_pct": 100.0,
+      "nonIBRS_missing_pct": 0.0072,
+      "delta_pp": 99.9928
+    },
+    {
+      "field": "special_conditions_at_site",
+      "IBRS_missing_pct": 100.0,
+      "nonIBRS_missing_pct": 0.0048,
+      "delta_pp": 99.9952
+    },
+    {
+      "field": "pedestrian_crossing_physical_facilities_historic",
+      "IBRS_missing_pct": 100.0,
+      "nonIBRS_missing_pct": 0.0192,
+      "delta_pp": 99.9808
+    },
+    {
+      "field": "junction_detail_historic",
+      "IBRS_missing_pct": 100.0,
+      "nonIBRS_missing_pct": 0.7326,
+      "delta_pp": 99.2674
+    },
+    {
+      "field": "junction_control",
+      "IBRS_missing_pct": 50.1223,
+      "nonIBRS_missing_pct": 30.8912,
+      "delta_pp": 19.2311
+    },
+    {
+      "field": "second_road_class",
+      "IBRS_missing_pct": 18.667,
+      "nonIBRS_missing_pct": 0.2354,
+      "delta_pp": 18.4316
+    },
+    {
+      "field": "second_road_number",
+      "IBRS_missing_pct": 18.667,
+      "nonIBRS_missing_pct": 31.0978,
+      "delta_pp": -12.4307
+    },
+    {
+      "field": "trunk_road_flag",
+      "IBRS_missing_pct": 8.7542,
+      "nonIBRS_missing_pct": 4.5376,
+      "delta_pp": 4.2166
+    },
+    {
+      "field": "junction_detail",
+      "IBRS_missing_pct": 8.0105,
+      "nonIBRS_missing_pct": 5.4168,
+      "delta_pp": 2.5938
+    },
+    {
+      "field": "pedestrian_crossing",
+      "IBRS_missing_pct": 1.7421,
+      "nonIBRS_missing_pct": 0.0024,
+      "delta_pp": 1.7397
+    },
+    {
+      "field": "road_surface_conditions",
+      "IBRS_missing_pct": 1.1181,
+      "nonIBRS_missing_pct": 0.0985,
+      "delta_pp": 1.0196
+    },
+    {
+      "field": "carriageway_hazards",
+      "IBRS_missing_pct": 0.7083,
+      "nonIBRS_missing_pct": 0.0024,
+      "delta_pp": 0.7059
+    },
+    {
+      "field": "speed_limit",
+      "IBRS_missing_pct": 0.0034,
+      "nonIBRS_missing_pct": 0.0024,
+      "delta_pp": 0.001
+    }
+  ],
+  "step4_indomain_reference": {
+    "nonIBRS": {
+      "n": 41629,
+      "pos_rate_pct": 1.0858,
+      "AUROC": 0.783,
+      "AP": 0.0451,
+      "top_decile_coverage": 0.396,
+      "cal_in_large_pp": 0.0016,
+      "cal_slope": 0.9517,
+      "log_loss_eps001": 0.0539
+    },
+    "IBRS": {
+      "n": 59295,
+      "pos_rate_pct": 1.7708,
+      "AUROC": 0.7316,
+      "AP": 0.0503,
+      "top_decile_coverage": 0.32,
+      "cal_in_large_pp": -0.0005,
+      "cal_slope": 0.9423,
+      "log_loss_eps001": 0.0829
+    }
+  },
+  "step4_transfer": {
+    "nonIBRS_to_IBRS": {
+      "n": 59295,
+      "pos_rate_pct": 1.7708,
+      "AUROC": 0.7269,
+      "AP": 0.0489,
+      "top_decile_coverage": 0.3181,
+      "cal_in_large_pp": -0.1683,
+      "cal_slope": 0.7755,
+      "log_loss_eps001": 0.0836,
+      "train_n": 41629,
+      "train_pos_rate_pct": 1.0858,
+      "fix_dev36": {
+        "delta": {
+          "mean": -4.518,
+          "sd": 4.2686
+        },
+        "cil_before_pp": {
+          "mean": -0.1686,
+          "sd": 0.0011
+        },
+        "cil_after_pp": {
+          "mean": -0.4808,
+          "sd": 1.6937
+        },
+        "ll_before": {
+          "mean": 0.0837,
+          "sd": 0.0
+        },
+        "ll_after": {
+          "mean": 0.1314,
+          "sd": 0.0353
+        },
+        "dev_fatal_count_mean": 0.467
+      },
+      "fix_dev121": {
+        "delta": {
+          "mean": -0.5288,
+          "sd": 2.0905
+        },
+        "cil_before_pp": {
+          "mean": -0.1683,
+          "sd": 0.0026
+        },
+        "cil_after_pp": {
+          "mean": 0.0207,
+          "sd": 1.237
+        },
+        "ll_before": {
+          "mean": 0.0836,
+          "sd": 0.0001
+        },
+        "ll_after": {
+          "mean": 0.0919,
+          "sd": 0.0186
+        },
+        "dev_fatal_count_mean": 2.167
+      }
+    },
+    "IBRS_to_nonIBRS": {
+      "n": 41629,
+      "pos_rate_pct": 1.0858,
+      "AUROC": 0.7777,
+      "AP": 0.0473,
+      "top_decile_coverage": 0.427,
+      "cal_in_large_pp": 0.2841,
+      "cal_slope": 1.1553,
+      "log_loss_eps001": 0.0545,
+      "train_n": 59295,
+      "train_pos_rate_pct": 1.7708,
+      "fix_dev36": {
+        "delta": {
+          "mean": -5.6445,
+          "sd": 3.9079
+        },
+        "cil_before_pp": {
+          "mean": 0.2839,
+          "sd": 0.0011
+        },
+        "cil_after_pp": {
+          "mean": -0.2601,
+          "sd": 1.4037
+        },
+        "ll_before": {
+          "mean": 0.0545,
+          "sd": 0.0
+        },
+        "ll_after": {
+          "mean": 0.0854,
+          "sd": 0.0134
+        },
+        "dev_fatal_count_mean": 0.267
+      },
+      "fix_dev121": {
+        "delta": {
+          "mean": -2.1293,
+          "sd": 3.5651
+        },
+        "cil_before_pp": {
+          "mean": 0.2842,
+          "sd": 0.0027
+        },
+        "cil_after_pp": {
+          "mean": 0.041,
+          "sd": 0.9328
+        },
+        "ll_before": {
+          "mean": 0.0544,
+          "sd": 0.0001
+        },
+        "ll_after": {
+          "mean": 0.0661,
+          "sd": 0.0167
+        },
+        "dev_fatal_count_mean": 1.367
+      }
+    }
+  },
+  "step5_adjusted_priors_pct": {
+    "IBRS": {
+      "n": 59297,
+      "raw_serious_pct": 26.686,
+      "adj_serious_pct": 26.686,
+      "adj_minus_raw_serious_pp": 0.0,
+      "raw_slight_pct": 71.5432,
+      "adj_slight_pct": 71.5432,
+      "adj_minus_raw_slight_pp": 0.0
+    },
+    "non_IBRS": {
+      "n": 41630,
+      "raw_serious_pct": 18.5996,
+      "adj_serious_pct": 21.3044,
+      "adj_minus_raw_serious_pp": 2.7048,
+      "raw_slight_pct": 80.3147,
+      "adj_slight_pct": 77.6098,
+      "adj_minus_raw_slight_pp": -2.7048
+    }
+  },
+  "step5_serious_gap_pp": {
+    "raw": 8.0864,
+    "adjusted": 5.3816
+  }
+}

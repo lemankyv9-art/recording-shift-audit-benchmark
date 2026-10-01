@@ -1,0 +1,20 @@
+{
+  "n_crashes": 51658,
+  "fatal_prev_unweighted": 0.021636988194417027,
+  "fatal_prev_weighted": 0.006017175123328859,
+  "maj_baseline_unweighted": 0.9783630118055829,
+  "maj_baseline_weighted": 0.9939828248766711,
+  "auroc_weighted": 0.8167976819971446,
+  "ap_weighted": 0.05898051810949576,
+  "ap_baseline_weighted": 0.006017175123328859,
+  "top_decile_cov_weighted": 0.34630997072267783,
+  "top_decile_cov_weighted_wbudget": 0.5390624245356875,
+  "cost_window_unweighted": [
+    8,
+    50
+  ],
+  "cost_window_weighted": [
+    9,
+    50
+  ]
+}

@@ -1,0 +1,23 @@
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1,horizontal sep=1.7cm},
+ width=0.46\textwidth,height=5.7cm,grid=major,grid style={gray!15},
+ label style={font=\small},tick label style={font=\small},
+ legend style={font=\footnotesize,draw=none,fill=white}]
+\nextgroupplot[xlabel={True category},ylabel={Recall},xtick={0,1,2,3},xticklabels={Low,Medium,High,Major},ymin=0,ymax=1.02,legend pos=north east]
+\addplot+[mark=*,mark size=1.8pt,thick,blue!70!black,error bars/.cd,y dir=both,y explicit] coordinates {(0,0.8772156) +- (0,0.0148581) (1,0.2465585) +- (0,0.0232606) (2,0.0066992) +- (0,0.0056574) (3,0.0018863) +- (0,0.0027257)};
+\addlegendentry{Pooling}
+\addplot+[mark=*,mark size=1.8pt,thick,red!70!black,error bars/.cd,y dir=both,y explicit] coordinates {(0,0.8984538) +- (0,0.0246227) (1,0.2100634) +- (0,0.0421518) (2,0.0026837) +- (0,0.0026680) (3,0.0018863) +- (0,0.0027257)};
+\addlegendentry{TCA}
+\nextgroupplot[xlabel={Mean predicted severe risk},ylabel={Observed severe fraction},xmin=0,xmax=.3,ymin=0,ymax=.3,legend pos=north west]
+\addplot[gray,dashed,no marks] coordinates {(0,0) (.3,.3)};
+\addplot+[mark=*,mark size=1.8pt,thick,blue!70!black,error bars/.cd,y dir=both,y explicit] coordinates {(0.0294086,0.0713333) +- (0,0.0091193) (0.0378775,0.0658333) +- (0,0.0090949) (0.0409413,0.0425000) +- (0,0.0056492) (0.0456039,0.0621667) +- (0,0.0072837) (0.0533955,0.0756667) +- (0,0.0078255) (0.0621476,0.0860000) +- (0,0.0069062) (0.0726808,0.0856667) +- (0,0.0068946) (0.0871396,0.1080000) +- (0,0.0099231) (0.1119202,0.1211667) +- (0,0.0091948) (0.1921914,0.1583333) +- (0,0.0086790)};
+\addlegendentry{Pooling}
+\addplot+[mark=*,mark size=1.8pt,thick,red!70!black,error bars/.cd,y dir=both,y explicit] coordinates {(0.0258767,0.0555000) +- (0,0.0085396) (0.0317291,0.0463333) +- (0,0.0074831) (0.0394161,0.0568333) +- (0,0.0071639) (0.0471862,0.0666667) +- (0,0.0085394) (0.0568919,0.0753333) +- (0,0.0065034) (0.0674507,0.0791667) +- (0,0.0059463) (0.0796739,0.1011667) +- (0,0.0108277) (0.0952014,0.1108333) +- (0,0.0107318) (0.1178510,0.1291667) +- (0,0.0079376) (0.1750792,0.1556667) +- (0,0.0173262)};
+\addlegendentry{TCA}
+\end{groupplot}
+\end{tikzpicture}
+\caption{Original-protocol composition-shift recall and severe-risk reliability. Points and 95\% Monte Carlo intervals summarise 30 replicates. Reliability bins contain equal numbers of rows within each replicate; the dashed line is ideal calibration. These curves diagnose saved probabilities and do not recalibrate models.}
+\label{fig:recallcalibration}
+\end{figure}

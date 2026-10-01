@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "learning_fits_recomputed": 900,
+  "prediction_arrays": 900,
+  "fit_attempts": 8346,
+  "nonconverged_attempts": 0,
+  "prefix_36_matches_primary": true,
+  "class_recall_rows": 10800,
+  "descriptive_rows": 270,
+  "projection_rows": 270,
+  "source_cv_rows": 180
+}

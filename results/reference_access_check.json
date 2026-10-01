@@ -1,0 +1,40 @@
+[
+  {
+    "id": "report_a",
+    "display_alias": "Report A",
+    "status": 200,
+    "content_type": "text/html",
+    "bytes": 157860
+  },
+  {
+    "id": "report_b",
+    "display_alias": "Report B",
+    "status": 403,
+    "content_type": null,
+    "bytes": 7382
+  },
+  {
+    "id": "report_c",
+    "display_alias": "Report C",
+    "error": "('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"
+  },
+  {
+    "id": "report_d",
+    "display_alias": "Report D",
+    "status": 200,
+    "content_type": "text/html",
+    "bytes": 56310
+  },
+  {
+    "id": "report_e",
+    "display_alias": "Report E",
+    "error": "HTTPSConnectionPool(host='yjt.hunan.gov.cn', port=443): Max retries exceeded with url: /yjt/sgdcbgx/201412/t20141202_3368192.html (Caused by SSLError(SSLError(1, '[SSL: BAD_ECPOINT] bad ecpoint (_ssl.c:1032)')))"
+  },
+  {
+    "id": "report_f",
+    "display_alias": "Report F",
+    "status": 420,
+    "content_type": "text/html;charset=utf-8",
+    "bytes": 9581
+  }
+]

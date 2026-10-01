@@ -1,0 +1,18 @@
+{
+  "cells": 72,
+  "replicates_per_cell": 30,
+  "rows": 21600,
+  "methods": [
+    "prior",
+    "pooled_fixed",
+    "pooled_cv",
+    "weighted_fixed",
+    "ordered_fixed",
+    "tca_fixed",
+    "pca5_fixed",
+    "source_fixed",
+    "source_em",
+    "source_intercept"
+  ],
+  "status": "verified"
+}

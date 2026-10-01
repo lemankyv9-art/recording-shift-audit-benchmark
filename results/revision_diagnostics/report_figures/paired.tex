@@ -1,0 +1,18 @@
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1,horizontal sep=1.7cm},
+ width=0.46\textwidth,height=5.7cm,grid=major,grid style={gray!15},
+ label style={font=\small},tick label style={font=\small},
+ legend style={font=\footnotesize,draw=none,fill=white}]
+\nextgroupplot[xlabel={Scenario},ylabel={TCA minus pooling accuracy},xtick={0,1,2},xticklabels={Stationary,Composition,Injury},xticklabel style={rotate=15,anchor=east}]
+\addplot[gray,dashed,no marks] coordinates {(-.3,0) (2.3,0)};
+\addplot+[mark=*,mark size=1.8pt,thick,blue!70!black,only marks,error bars/.cd,y dir=both,y explicit] coordinates {(0,-0.0020000) +- (0,0.0029844) (1,-0.0004000) +- (0,0.0046827) (2,-0.0034500) +- (0,0.0043869)};
+\nextgroupplot[xlabel={Scenario},ylabel={TCA minus pooling Brier},xtick={0,1,2},xticklabels={Stationary,Composition,Injury},xticklabel style={rotate=15,anchor=east}]
+\addplot[gray,dashed,no marks] coordinates {(-.3,0) (2.3,0)};
+\addplot+[mark=*,mark size=1.8pt,thick,blue!70!black,only marks,error bars/.cd,y dir=both,y explicit] coordinates {(0,-0.0037408) +- (0,0.0026247) (1,-0.0045841) +- (0,0.0034017) (2,-0.0075999) +- (0,0.0045241)};
+\end{groupplot}
+\end{tikzpicture}
+\caption{Paired original-protocol differences with 95\% Monte Carlo intervals. Positive accuracy differences and negative Brier differences favour TCA. Both metrics are on their original proportion/score scales; no multiplicity adjustment is applied.}
+\label{fig:paired}
+\end{figure}

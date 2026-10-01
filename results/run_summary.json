@@ -1,0 +1,36 @@
+{
+  "completed": true,
+  "repeats": 30,
+  "scenarios": [
+    "stationary",
+    "covariate_shift",
+    "conditional_shift"
+  ],
+  "methods": [
+    "complete_factors",
+    "context_augmented",
+    "count_only",
+    "kpca",
+    "logistic_pooling",
+    "logistic_source",
+    "logistic_target",
+    "logistic_weighted",
+    "majority",
+    "mlp_pooling",
+    "mlp_source",
+    "mlp_target",
+    "mlp_weighted",
+    "pca",
+    "tca"
+  ],
+  "attempts": 23337,
+  "retries": 0,
+  "unresolved_final_fits": 0,
+  "environment": {
+    "python": "3.13.14",
+    "numpy": "2.5.1",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "scikit_learn": "1.9.0"
+  }
+}

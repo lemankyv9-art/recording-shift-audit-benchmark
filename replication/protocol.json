@@ -1,0 +1,259 @@
+{
+  "version": "3.2",
+  "date": "2026-09-29",
+  "study_type": "Reference-informed forward computational benchmark. Generated event records, not empirical accident reports or a population-calibrated generator.",
+  "development_history": "v3.2 revises the event and observation process after diagnostic review. It retains fixed seeds and paired scenarios, replaces direct outcome-dependent recording with an outcome-blind pre-outcome complexity/report-quality process, adds clustered count outcomes, heterogeneous contexts and mixed reporting precision, and reruns every analysis under one final protocol.",
+  "replicate_seeds": [
+    310001,
+    310002,
+    310003,
+    310004,
+    310005,
+    310006,
+    310007,
+    310008,
+    310009,
+    310010,
+    310011,
+    310012,
+    310013,
+    310014,
+    310015,
+    310016,
+    310017,
+    310018,
+    310019,
+    310020,
+    310021,
+    310022,
+    310023,
+    310024,
+    310025,
+    310026,
+    310027,
+    310028,
+    310029,
+    310030
+  ],
+  "source_n": 343,
+  "target_n": 121,
+  "development_n": 36,
+  "external_test_n": 2000,
+  "scenarios": {
+    "stationary": {
+      "shift": 0,
+      "mechanism": 0
+    },
+    "covariate_shift": {
+      "shift": 0.8,
+      "mechanism": 0
+    },
+    "conditional_shift": {
+      "shift": 0.8,
+      "mechanism": 0.65
+    }
+  },
+  "primary_scenario": "covariate_shift",
+  "generator": {
+    "factor_logits": [
+      -1.2,
+      -1.65,
+      -1.3,
+      -1.05,
+      -1.3,
+      -1.8,
+      -1.55,
+      -1.8,
+      -2.3,
+      -1.8,
+      -2.1,
+      -1.45,
+      -1.45,
+      -1.9,
+      -1.55,
+      -1.2,
+      -1.7,
+      -2.1,
+      -2.3,
+      -1.5
+    ],
+    "factor_groups": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3
+    ],
+    "factor_shift": [
+      0.5,
+      0.3,
+      -0.4,
+      0.3,
+      -0.3,
+      0.2,
+      -0.3,
+      -0.4,
+      0.1,
+      -0.2,
+      0.1,
+      0.2,
+      0.8,
+      0.3,
+      0.1,
+      -0.4,
+      0.6,
+      -0.1,
+      0.1,
+      0.2
+    ],
+    "context_probabilities": [
+      0.7,
+      0.15,
+      0.1,
+      0.05
+    ],
+    "context_status": "Stress-oriented scenario composition chosen for mechanisms, not estimated accident population frequencies.",
+    "loss_components": "Property damage, casualty-related expenditure and response/aftermath cost are generated forward with event-level shocks. Total loss is reported with a mixed precision process and is never clipped or resampled to satisfy a label.",
+    "region_probabilities": [
+      0.46,
+      0.28,
+      0.19,
+      0.07
+    ],
+    "region_effects": [
+      [
+        -0.15,
+        0.08,
+        0.05,
+        -0.1
+      ],
+      [
+        0.12,
+        -0.1,
+        0.08,
+        0.06
+      ],
+      [
+        -0.08,
+        0.04,
+        -0.12,
+        0.1
+      ],
+      [
+        0.06,
+        -0.04,
+        0.09,
+        0.16
+      ]
+    ],
+    "context_logits": [
+      1.1,
+      -0.35,
+      -0.75,
+      -1.4
+    ],
+    "recording_item_offsets": [
+      -0.2,
+      -0.15,
+      -0.3,
+      -0.1,
+      -0.18,
+      -0.22,
+      -0.05,
+      -0.12,
+      -0.35,
+      -0.2,
+      -0.25,
+      -0.1,
+      -0.18,
+      -0.05,
+      -0.55,
+      -0.08,
+      -0.15,
+      -0.18,
+      -0.25,
+      -0.65
+    ],
+    "observation_process": "Recorded factors depend on pre-outcome event complexity, context and report quality. Fatalities and loss are not read when generating the assessment mask."
+  },
+  "model_protocol": {
+    "logistic_C": [
+      0.03,
+      0.3,
+      3.0
+    ],
+    "mlp_alpha": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "mlp_hidden": [
+      16
+    ],
+    "mlp_seeds": [
+      0,
+      1,
+      2
+    ],
+    "solver": "lbfgs",
+    "mlp_max_iter": 6000,
+    "initial_max_iter": 6000,
+    "retry_max_iter": 24000,
+    "tolerance": 1e-06,
+    "cv_folds": 3,
+    "cv_seed": 120,
+    "selection": "Target-development mean log loss; macro-F1 breaks ties. Same target folds for all primary arms, including source-trained target-selected reference.",
+    "tca_dims": [
+      5,
+      10,
+      20
+    ],
+    "tca_sigma": [
+      1.0,
+      3.0,
+      10.0
+    ],
+    "tca_mu": [
+      0.1,
+      1.0
+    ],
+    "tca_ridge": 0.0001,
+    "weight_clip": [
+      0.1,
+      10.0
+    ],
+    "weight_model_C": 0.3,
+    "convergence": "Log every failed attempt. Retry same configuration at larger budget; exclude unresolved CV candidates; unresolved final fits stop the run. No test-based fallback or selection.",
+    "activation": "tanh"
+  },
+  "coverage": "All primary models run in every repeat/scenario on recorded factors. Complete-factor, count-only and contextual logistic controls use fixed C=0.3. Context includes post-event fields and is a diagnostic, not a deployable forecast.",
+  "estimands": "Mean accuracy, macro-F1, log loss and multiclass Brier under each specified DGP. Paired mean differences vs pooling with Monte Carlo standard errors and t intervals across independent repeats. Neither these intervals nor single-draw intervals establish real-world validity.",
+  "invariants": [
+    "fatalities+serious+minor+unhurt=exposed",
+    "bus_occupants<=bus_seats",
+    "property_loss<=asset_value",
+    "total_loss=sum(components)",
+    "E04 implies E11",
+    "source invariant across scenarios",
+    "every fixed seed retained",
+    "assessment mask does not use fatalities or loss",
+    "loss precision is independent of label thresholds"
+  ],
+  "primary_predictors": "Outcome-blind recorded factor flags. Complete factors, context and the assessment mask are retained only for mechanism diagnostics.",
+  "scenario_interpretation": "Covariate shift changes context and factor prevalence. Conditional shift changes injury vulnerability while leaving the pre-outcome event-factor process paired. The primary observation process is outcome-blind; any remaining association between recording count and severity is induced by shared event mechanisms rather than direct label access."
+}

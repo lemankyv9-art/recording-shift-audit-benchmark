@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "protocol_sha256": "880d4fb12cf31f961793523fcdfca2558ca6b8fb31b0ae48487603104b968eeb",
+  "scope": "fixed release matrices and stored predictions; no data generation or primary refitting",
+  "replicates": 30,
+  "scenarios": 3,
+  "metrics": [
+    "accuracy",
+    "balanced_accuracy",
+    "class recall",
+    "class precision",
+    "high_major AUROC",
+    "high_major AP",
+    "top-decile coverage",
+    "log-loss skill",
+    "Brier skill"
+  ]
+}

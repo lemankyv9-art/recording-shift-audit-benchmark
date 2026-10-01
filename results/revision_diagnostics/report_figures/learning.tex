@@ -1,0 +1,22 @@
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1,horizontal sep=1.7cm},
+ width=0.46\textwidth,height=5.7cm,grid=major,grid style={gray!15},
+ label style={font=\small},tick label style={font=\small},
+ legend style={font=\footnotesize,draw=none,fill=white}]
+\nextgroupplot[xlabel={Target training rows},ylabel={Severe-case AUROC},xtick={12,36,72,121},legend pos=north east]
+\addplot+[mark=*,mark size=1.8pt,thick,red!70!black,error bars/.cd,y dir=both,y explicit] coordinates {(12,0.5159957) +- (0,0.0202955) (24,0.5278505) +- (0,0.0220199) (36,0.5468136) +- (0,0.0222160) (72,0.5856928) +- (0,0.0150665) (121,0.5983547) +- (0,0.0160295)};
+\addlegendentry{Target only}
+\addplot+[mark=*,mark size=1.8pt,thick,blue!70!black,error bars/.cd,y dir=both,y explicit] coordinates {(12,0.6042057) +- (0,0.0153243) (24,0.6158895) +- (0,0.0135479) (36,0.6248544) +- (0,0.0113018) (72,0.6342216) +- (0,0.0089347) (121,0.6295218) +- (0,0.0111630)};
+\addlegendentry{Pooling}
+\nextgroupplot[xlabel={Target training rows},ylabel={Smoothed log loss},xtick={12,36,72,121},legend pos=north east]
+\addplot+[mark=*,mark size=1.8pt,thick,red!70!black,error bars/.cd,y dir=both,y explicit] coordinates {(12,1.3434335) +- (0,0.1464016) (24,1.1226276) +- (0,0.0747819) (36,1.0637606) +- (0,0.0537199) (72,0.9734354) +- (0,0.0161383) (121,0.9534893) +- (0,0.0134319)};
+\addlegendentry{Target only}
+\addplot+[mark=*,mark size=1.8pt,thick,blue!70!black,error bars/.cd,y dir=both,y explicit] coordinates {(12,0.9710646) +- (0,0.0278034) (24,0.9527880) +- (0,0.0236910) (36,0.9361102) +- (0,0.0149032) (72,0.9250174) +- (0,0.0084121) (121,0.9220294) +- (0,0.0085285)};
+\addlegendentry{Pooling}
+\end{groupplot}
+\end{tikzpicture}
+\caption{Sensitivity-extension learning curves on the independent composition-shift cohort. Each prefix is refitted using the expanded grid and training-prior smoothing with $\epsilon=0.01$. Bars are 95\% Monte Carlo intervals across 30 replicates. The 85-row primary holdout is not reused for scoring.}
+\label{fig:learning}
+\end{figure}

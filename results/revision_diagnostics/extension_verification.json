@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "assertions": 1209111,
+  "factorial_runs": 2160,
+  "selection_runs": 90,
+  "learning_runs": 90,
+  "parameter_runs": 210,
+  "data_rich_runs": 30,
+  "MC_bound_cases": 6,
+  "scope": "independent recomputation of all stored class/ranking/score/decision metrics; complete run and candidate grids; selected criteria; seed-level interval arithmetic. Does not establish causal realism, license approval, or public deposition."
+}

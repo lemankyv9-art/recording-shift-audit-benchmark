@@ -1,0 +1,44 @@
+{
+  "cases": {
+    "stationary": {
+      "shift": 0
+    },
+    "covariate_shift": {
+      "shift": 0.8
+    },
+    "conditional_shift": {
+      "shift": 0.8,
+      "mechanism": 0.65
+    },
+    "strong_signal": {
+      "shift": 0.8,
+      "signal": 3.0
+    },
+    "severity_recording": {
+      "shift": 0.8,
+      "recording": "severity"
+    },
+    "recording_drift": {
+      "shift": 0.8,
+      "recording": "drift",
+      "recording_shift": -1.2
+    }
+  },
+  "data_rich_seeds": [
+    840001,
+    840002,
+    840003,
+    840004,
+    840005
+  ],
+  "reference_train_sizes": [
+    50000,
+    200000
+  ],
+  "validation_n": 10000,
+  "test_n": 50000,
+  "selection": "independent validation log loss; accuracy selector additionally reported",
+  "MC_cells": 1048576,
+  "MC_draws": 2000000,
+  "all_cases_retained": true
+}

@@ -1,0 +1,11 @@
+code,factor,stats19_n,post_n,stats19_pct,post_pct,pp_change,n_stats19,n_both,n_removed,n_added,n_post,pct_removed,pct_added
+405,Driver or rider failed to look properly,280,228,26.6,21.7,-4.900000000000002,286.0,180.0,106.0,48.0,228.0,0.371,0.21100000000000002
+406,Driver or rider failed to judge other person`s path or speed,134,118,12.7,11.2,-1.5,136.0,74.0,62.0,44.0,118.0,0.456,0.373
+509,Distraction in vehicle,52,41,4.9,3.9,-1.0000000000000004,52.0,29.0,23.0,12.0,41.0,0.442,0.293
+103,Slippery road (due to weather),53,42,5.0,4.0,-1.0,53.0,33.0,20.0,9.0,42.0,0.377,0.214
+999,Other,64,55,6.1,5.2,-0.8999999999999995,64.0,25.0,39.0,30.0,55.0,0.609,0.545
+601,Aggressive driving,70,66,6.7,6.3,-0.40000000000000036,71.0,32.0,39.0,34.0,66.0,0.5489999999999999,0.515
+401,Junction overshoot,17,13,1.6,1.2,-0.40000000000000013,17.0,10.0,7.0,3.0,13.0,0.41200000000000003,0.231
+506,Not displaying lights at night or in poor visibility,5,2,0.5,0.2,-0.3,5.0,1.0,4.0,1.0,2.0,0.8,0.5
+503,Fatigue,32,30,3.0,2.8,-0.20000000000000018,32.0,21.0,11.0,9.0,30.0,0.344,0.3
+801,Crossing road masked by stationary or parked vehicle,12,9,1.1,0.9,-0.20000000000000007,12.0,5.0,7.0,4.0,9.0,0.583,0.444

@@ -1,0 +1,36 @@
+pilot/stats19_2024/audit.py:48: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = stats.spearmanr([1, 2, 3], rates)
+{
+  "fatal_vs_rest": {
+    "n": 100927,
+    "pos_rate": 0.0149,
+    "AUROC": 0.7575,
+    "AP": 0.0498,
+    "top_decile_coverage": 0.3609
+  },
+  "fats_vs_slight": {
+    "n": 100927,
+    "pos_rate": 0.2484,
+    "AUROC": 0.6355,
+    "AP": 0.3686,
+    "top_decile_coverage": 0.1834
+  }
+}
+priors: {'slight': 75.161, 'serious': 23.351, 'fatal': 1.488} maj acc: 0.7516
+cost window: (7, 50) {'last_c_beats_none': 6, 'first_c_beats_allsevere': 1}
+                                           field  fatal_%  serious_%  slight_%  spearman_rho(sev,missing)  p_value
+                        local_authority_district  100.000    100.000   100.000                        NaN      NaN
+                        junction_detail_historic   69.973     67.544    56.201                       -1.0      0.0
+      pedestrian_crossing_human_control_historic   69.907     67.145    55.926                       -1.0      0.0
+                    carriageway_hazards_historic   69.907     67.145    55.928                       -1.0      0.0
+                      special_conditions_at_site   69.907     67.145    55.927                       -1.0      0.0
+pedestrian_crossing_physical_facilities_historic   69.907     67.157    55.931                       -1.0      0.0
+                                junction_control   65.313     46.255    40.469                       -1.0      0.0
+                              second_road_number   41.744     24.632    23.179                       -1.0      0.0
+                     enhanced_severity_collision   30.093     32.855    44.076                        1.0      0.0
+                               second_road_class   23.435     12.959    10.231                       -1.0      0.0
+                                 trunk_road_flag   15.246     10.846     5.662                       -1.0      0.0
+                                 junction_detail    2.597      4.718     7.717                        1.0      0.0
+                             pedestrian_crossing    0.067      0.628     1.167                        1.0      0.0
+                         road_surface_conditions    0.067      0.310     0.830                        1.0      0.0
+                             carriageway_hazards    0.067      0.204     0.490                        1.0      0.0

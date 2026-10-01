@@ -1,0 +1,14 @@
+{
+  "accuracy": {
+    "prior_baseline": 0.5758666666666666,
+    "pooled_logistic": 0.5887,
+    "data_rich_logistic_reference": 0.605932,
+    "pooled_fraction_of_model_specific_gap": 0.4268481972593022
+  },
+  "severe_auroc": {
+    "prior_baseline": 0.5,
+    "pooled_logistic": 0.6006253968686184,
+    "data_rich_logistic_reference": 0.6706317171701821,
+    "pooled_fraction_of_model_specific_gap": 0.58972269949237
+  }
+}

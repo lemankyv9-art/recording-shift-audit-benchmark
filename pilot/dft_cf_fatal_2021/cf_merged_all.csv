@@ -1,0 +1,79 @@
+code,factor,stats19_n,post_n,stats19_pct,post_pct,pp_change,n_stats19,n_both,n_removed,n_added,n_post,pct_removed,pct_added
+101,Poor or defective road surface,9,10,0.9,0.9,0.0,9.0,6.0,3.0,4.0,10.0,0.3329999999999999,0.4
+102,"Deposit on road (eg. oil, mud, chippings)",5,5,0.5,0.5,0.0,5.0,2.0,3.0,3.0,5.0,0.6,0.6
+103,Slippery road (due to weather),53,42,5.0,4.0,-1.0,53.0,33.0,20.0,9.0,42.0,0.377,0.214
+104,Inadequate or masked signs or road markings,4,6,0.4,0.6,0.1999999999999999,4.0,3.0,1.0,3.0,6.0,0.25,0.5
+105,Defective traffic signals,0,0,0.0,0.0,0.0,,,,,,,
+106,"Traffic calming (eg. road humps, chicane)",1,0,0.1,0.0,-0.1,1.0,0.0,1.0,0.0,0.0,1.0,0.0
+107,Temporary road layout (eg. contraflow),0,1,0.0,0.1,0.1,0.0,0.0,0.0,1.0,1.0,,
+108,"Road layout (eg. bend, hill, narrow road)",21,30,2.0,2.8,0.7999999999999998,22.0,11.0,11.0,19.0,30.0,0.5,0.633
+109,Animal or object in carriageway,9,10,0.9,0.9,0.0,9.0,6.0,3.0,4.0,10.0,0.3329999999999999,0.4
+110,Slippery inspection cover or road marking,0,0,0.0,0.0,0.0,,,,,,,
+201,"Tyres illegal, defective or under inflated",12,20,1.1,1.9,0.7999999999999998,13.0,10.0,3.0,10.0,20.0,0.231,0.5
+202,Defective lights or indicators,0,5,0.0,0.5,0.5,0.0,0.0,0.0,5.0,5.0,,
+203,Defective brakes,9,11,0.9,1.0,0.0999999999999999,9.0,5.0,4.0,6.0,11.0,0.444,0.545
+204,Defective steering or suspension,6,9,0.6,0.9,0.3,6.0,5.0,1.0,4.0,9.0,0.1669999999999999,0.444
+205,Defective or missing mirrors,0,0,0.0,0.0,0.0,,,,,,,
+206,Overloaded or poorly loaded vehicle or trailer,0,5,0.0,0.5,0.5,0.0,0.0,0.0,5.0,5.0,,
+301,Disobeyed automatic traffic signal,8,7,0.8,0.7,-0.1,8.0,6.0,2.0,1.0,7.0,0.25,0.143
+302,Disobeyed 'Give Way' or 'Stop' sign or markings,9,16,0.9,1.5,0.6,9.0,7.0,2.0,9.0,16.0,0.222,0.563
+303,Disobeyed double white lines,7,8,0.7,0.8,0.1,7.0,4.0,3.0,4.0,8.0,0.429,0.5
+304,Disobeyed pedestrian crossing facility,4,10,0.4,0.9,0.5,4.0,4.0,0.0,6.0,10.0,0.0,0.6
+305,Illegal turn or direction of travel,8,12,0.8,1.1,0.3,8.0,5.0,3.0,7.0,12.0,0.375,0.583
+306,Exceeding speed limit,197,257,18.7,24.4,5.699999999999999,199.0,160.0,39.0,97.0,257.0,0.196,0.377
+307,Travelling too fast for conditions,103,148,9.8,14.1,4.299999999999999,105.0,68.0,37.0,80.0,148.0,0.352,0.541
+308,Following too close,12,11,1.1,1.0,-0.1,12.0,6.0,6.0,5.0,11.0,0.5,0.455
+309,Vehicle travelling along pavement,3,4,0.3,0.4,0.1,3.0,2.0,1.0,2.0,4.0,0.3329999999999999,0.5
+310,Cyclist entering road from pavement,6,10,0.6,0.9,0.3,6.0,5.0,1.0,5.0,10.0,0.1669999999999999,0.5
+401,Junction overshoot,17,13,1.6,1.2,-0.4000000000000001,17.0,10.0,7.0,3.0,13.0,0.412,0.231
+402,Junction restart (moving off at junction),4,7,0.4,0.7,0.2999999999999999,4.0,4.0,0.0,3.0,7.0,0.0,0.429
+403,Poor turn or manoeuvre,108,129,10.3,12.3,2.0,109.0,76.0,33.0,53.0,129.0,0.303,0.411
+404,Failed to signal or misleading signal,2,6,0.2,0.6,0.3999999999999999,2.0,1.0,1.0,5.0,6.0,0.5,0.833
+405,Driver or rider failed to look properly,280,228,26.6,21.7,-4.900000000000002,286.0,180.0,106.0,48.0,228.0,0.371,0.211
+406,Driver or rider failed to judge other person`s path or speed,134,118,12.7,11.2,-1.5,136.0,74.0,62.0,44.0,118.0,0.456,0.373
+407,"Too close to cyclist, horse rider or pedestrian",9,11,0.9,1.0,0.0999999999999999,9.0,5.0,4.0,6.0,11.0,0.444,0.545
+408,Sudden braking,15,14,1.4,1.3,-0.0999999999999998,15.0,6.0,9.0,8.0,14.0,0.6,0.5710000000000001
+409,Swerved,36,35,3.4,3.3,-0.1,36.0,20.0,16.0,15.0,35.0,0.444,0.429
+410,Loss of control,260,260,24.7,24.7,0.0,260.0,189.0,71.0,71.0,260.0,0.273,0.273
+501,Driver or rider impaired by alcohol,118,147,11.2,14.0,2.8000000000000007,118.0,102.0,16.0,45.0,147.0,0.136,0.306
+502,Driver or rider impaired by drugs (illicit or medicinal),61,106,5.8,10.1,4.3,61.0,42.0,19.0,64.0,106.0,0.311,0.604
+503,Fatigue,32,30,3.0,2.8,-0.2000000000000001,32.0,21.0,11.0,9.0,30.0,0.344,0.3
+504,"Uncorrected, defective eyesight",0,4,0.0,0.4,0.4,0.0,0.0,0.0,4.0,4.0,,
+505,"Driver or rider illness or disability, mental or physical",70,88,6.7,8.4,1.7000000000000002,70.0,50.0,20.0,38.0,88.0,0.286,0.432
+506,Not displaying lights at night or in poor visibility,5,2,0.5,0.2,-0.3,5.0,1.0,4.0,1.0,2.0,0.8,0.5
+507,Rider wearing dark clothing,5,5,0.5,0.5,0.0,5.0,2.0,3.0,3.0,5.0,0.6,0.6
+508,Driver using mobile phone,14,24,1.3,2.3,0.9999999999999998,14.0,7.0,7.0,17.0,24.0,0.5,0.708
+509,Distraction in vehicle,52,41,4.9,3.9,-1.0000000000000004,52.0,29.0,23.0,12.0,41.0,0.442,0.293
+510,Distraction outside vehicle,11,13,1.0,1.2,0.1999999999999999,11.0,6.0,5.0,7.0,13.0,0.455,0.5379999999999999
+601,Aggressive driving,70,66,6.7,6.3,-0.4000000000000003,71.0,32.0,39.0,34.0,66.0,0.5489999999999999,0.515
+602,"Driver or rider careless, reckless or in a hurry",184,183,17.5,17.4,-0.1000000000000014,184.0,95.0,89.0,88.0,183.0,0.484,0.481
+603,"Driver or rider nervous, uncertain or panic",7,5,0.7,0.5,-0.1999999999999999,7.0,2.0,5.0,3.0,5.0,0.7140000000000001,0.6
+604,Driving too slow for conditions or slow veh (eg tractor),3,1,0.3,0.1,-0.1999999999999999,3.0,1.0,2.0,0.0,1.0,0.667,0.0
+605,Learner or inexperienced driver/rider,24,35,2.3,3.3,1.0,24.0,14.0,10.0,21.0,35.0,0.417,0.6
+606,Inexperience of driving on the left,1,1,0.1,0.1,0.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0
+607,Unfamiliar with model of vehicle,8,9,0.8,0.9,0.0999999999999999,8.0,5.0,3.0,4.0,9.0,0.375,0.444
+701,Stationary or parked vehicle(s),10,13,1.0,1.2,0.1999999999999999,11.0,7.0,4.0,6.0,13.0,0.364,0.462
+702,Vegetation,4,2,0.4,0.2,-0.2,4.0,1.0,3.0,1.0,2.0,0.75,0.5
+703,"Road layout (eg. bend, winding road, hill crest)",12,15,1.1,1.4,0.2999999999999998,12.0,5.0,7.0,10.0,15.0,0.583,0.667
+704,"Buildings, road signs, street furniture",1,0,0.1,0.0,-0.1,1.0,0.0,1.0,0.0,0.0,1.0,
+705,Dazzling headlights,2,4,0.2,0.4,0.2,2.0,2.0,0.0,2.0,4.0,0.0,0.5
+706,Dazzling sun,12,12,1.1,1.1,0.0,12.0,8.0,4.0,4.0,12.0,0.3329999999999999,0.3329999999999999
+707,"Rain, sleet, snow, or fog",15,16,1.4,1.5,0.1,15.0,8.0,7.0,8.0,16.0,0.467,0.5
+708,Spray from other vehicles,1,1,0.1,0.1,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0
+709,"Visor or windscreen dirty, scratched or frosted etc.",2,3,0.2,0.3,0.0999999999999999,2.0,2.0,0.0,1.0,3.0,0.0,0.3329999999999999
+710,Vehicle blind spot,8,10,0.8,0.9,0.0999999999999999,8.0,5.0,3.0,5.0,10.0,0.375,0.5
+801,Crossing road masked by stationary or parked vehicle,12,9,1.1,0.9,-0.2,12.0,5.0,7.0,4.0,9.0,0.583,0.444
+802,Pedestrian failed to look properly,65,68,6.2,6.5,0.2999999999999998,67.0,46.0,21.0,22.0,68.0,0.313,0.324
+803,Pedestrian failed to judge vehicle`s path or speed,45,53,4.3,5.0,0.7000000000000002,46.0,33.0,13.0,20.0,53.0,0.283,0.377
+804,Pedestrian wrong use of pedestrian crossing facility,6,9,0.6,0.9,0.3,7.0,5.0,2.0,4.0,9.0,0.286,0.444
+805,Dangerous action in carriageway (eg. playing),29,27,2.8,2.6,-0.1999999999999997,29.0,15.0,14.0,12.0,27.0,0.483,0.444
+806,Pedestrian impaired by alcohol,28,44,2.7,4.2,1.5,28.0,24.0,4.0,20.0,44.0,0.143,0.455
+807,Pedestrian impaired by drugs (illicit or medicinal),10,15,1.0,1.4,0.3999999999999999,10.0,4.0,6.0,11.0,15.0,0.6,0.733
+808,"Pedestrian careless, reckless or in a hurry",25,27,2.4,2.6,0.2000000000000001,25.0,14.0,11.0,13.0,27.0,0.44,0.481
+809,Pedestrian wearing dark clothing at night,38,50,3.6,4.7,1.1,38.0,33.0,5.0,17.0,50.0,0.132,0.34
+810,"Pedestrian disability or illness, mental or physical",28,29,2.7,2.8,0.0999999999999996,28.0,19.0,9.0,10.0,29.0,0.321,0.345
+901,Stolen vehicle,9,8,0.9,0.8,-0.0999999999999999,9.0,6.0,3.0,2.0,8.0,0.3329999999999999,0.25
+902,Vehicle in course of crime,8,8,0.8,0.8,0.0,8.0,3.0,5.0,5.0,8.0,0.625,0.625
+903,Emergency vehicle on a call,6,6,0.6,0.6,0.0,6.0,5.0,1.0,1.0,6.0,0.1669999999999999,0.1669999999999999
+904,Vehicle door opened or closed negligently,3,3,0.3,0.3,0.0,3.0,2.0,1.0,1.0,3.0,0.3329999999999999,0.3329999999999999
+999,Other,64,55,6.1,5.2,-0.8999999999999995,64.0,25.0,39.0,30.0,55.0,0.609,0.545

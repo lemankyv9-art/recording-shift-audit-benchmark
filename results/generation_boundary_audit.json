@@ -1,0 +1,15 @@
+{
+  "regeneration": {
+    "status": "PASS",
+    "scenario_datasets": 90,
+    "dataframe_comparisons": 990,
+    "generator_sha256": "b42cb806a3567b02271dadeee6e4efaa507f863e4e595785639f0511c6fd8b4d"
+  },
+  "boundary_tests": {
+    "fresh_fit_matches_stored_predictions": true,
+    "test_label_perturbation_leaves_selection_fits_predictions_identical": true,
+    "test_feature_perturbation_leaves_selection_and_fits_identical": true,
+    "scope": "r00 composition scenario, all 15 primary and diagnostic model outputs; test probabilities expected to change only with changed test features."
+  },
+  "scope": "Internal reproducibility and train/test boundary, not population validation."
+}

@@ -1,0 +1,8 @@
+严重度组,车辆数,访谈完成率%, surrogate访谈占比%
+O - No injury,5414,31.22,1.24
+C - Possible injury,3477,27.35,2.88
+B - Non-incapacitating injury,2021,27.86,5.64
+A - Incapacitating injury,762,27.56,9.45
+K - Killed,116,16.38,45.69
+"U - Injury, severity unknown",242,25.62,3.31
+No PAR obtained,478,35.15,2.3

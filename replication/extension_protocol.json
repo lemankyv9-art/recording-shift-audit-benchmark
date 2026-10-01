@@ -1,0 +1,193 @@
+{
+  "version": "review-extension-1",
+  "specified_at": "2026-09-29T19:20:30.280912+08:00",
+  "status": "Sensitivity-extension design specified after inspection of the primary results; all cells and seeds are retained. No success-based seed or parameter selection.",
+  "objective": "Methodological audit of ranking, calibration, decision rules and informative recording under distribution shift; no deployment claim.",
+  "legacy_replicates": 30,
+  "replicate_seeds": [
+    730001,
+    730002,
+    730003,
+    730004,
+    730005,
+    730006,
+    730007,
+    730008,
+    730009,
+    730010,
+    730011,
+    730012,
+    730013,
+    730014,
+    730015,
+    730016,
+    730017,
+    730018,
+    730019,
+    730020,
+    730021,
+    730022,
+    730023,
+    730024,
+    730025,
+    730026,
+    730027,
+    730028,
+    730029,
+    730030
+  ],
+  "factorial": {
+    "shift": [
+      0,
+      0.8,
+      2.0
+    ],
+    "signal": [
+      1.0,
+      3.0
+    ],
+    "development_n": [
+      36,
+      121
+    ],
+    "recording": [
+      "complexity",
+      "severity",
+      "drift"
+    ],
+    "fatality_intercept": [
+      0,
+      0.65
+    ]
+  },
+  "factorial_source_n": 343,
+  "factorial_test_n": 2000,
+  "recording_severity_coefficient": 1.0,
+  "target_recording_drift": -1.2,
+  "C_grid": [
+    0.0003,
+    0.003,
+    0.03,
+    0.3,
+    3,
+    30,
+    300
+  ],
+  "probability_smoothing": {
+    "epsilon": 0.01,
+    "prior": "training class counts plus 0.5 per class; no test labels used",
+    "sensitivity_epsilon": [
+      1e-06,
+      0.001,
+      0.01,
+      0.05
+    ]
+  },
+  "cv": {
+    "folds": 3,
+    "seed": 120,
+    "objective": "mean multiclass log loss after smoothing",
+    "ties": "smallest C"
+  },
+  "factorial_methods": [
+    "prior",
+    "pooled_fixed",
+    "pooled_cv",
+    "weighted_fixed",
+    "ordered_fixed",
+    "tca_fixed",
+    "pca5_fixed",
+    "source_fixed",
+    "source_em",
+    "source_intercept"
+  ],
+  "tca_defaults": {
+    "dim": 5,
+    "sigma": 3,
+    "mu": 1,
+    "C": 0.03
+  },
+  "selection_experiment": {
+    "replicates": 30,
+    "scenarios": [
+      "stationary",
+      "covariate_shift",
+      "conditional_shift"
+    ],
+    "independent_validation_n": 5000,
+    "dimensions": [
+      5,
+      10,
+      20
+    ],
+    "sigma": [
+      1,
+      3,
+      10
+    ],
+    "mu": [
+      0.1,
+      1
+    ],
+    "C": [
+      0.0003,
+      0.003,
+      0.03,
+      0.3,
+      3,
+      30,
+      300
+    ],
+    "versions": [
+      "fixed",
+      "development_cv",
+      "independent_validation_oracle"
+    ],
+    "objective": "smoothed log loss",
+    "notes": "Oracle uses additional independently generated validation labels only; final test never used for selection. Not a Bayes optimum."
+  },
+  "decisions": {
+    "severe": "high or major",
+    "fixed_cost_ratio_FN_FP": 10,
+    "development_threshold": "max binary F2 on pooled out-of-fold development predictions; if no severe development case, retain fixed cost threshold 1/11",
+    "top_fraction": 0.1,
+    "ties": "deterministic random tie ordering with seed 991 per replicate; no label information"
+  },
+  "oracle": {
+    "reference_train_n": [
+      50000,
+      200000
+    ],
+    "reference_validation_n": 10000,
+    "reference_test_n": 50000,
+    "replicate_seeds": [
+      840001,
+      840002,
+      840003,
+      840004,
+      840005
+    ],
+    "methods": [
+      "logistic",
+      "hist_gradient_boosting"
+    ],
+    "pattern_MC_draws": 2000000,
+    "notes": "Data-rich model reference is achievable performance, not upper bound. Finite-pattern Monte Carlo Bayes-accuracy interval separately accounts for estimation uncertainty and sparse cells."
+  },
+  "ADEMP": "The supplementary article reports the aim, crossed factors, methods, estimands, 30 seeds per cell and Monte Carlo precision; no 30-replicate power guarantee is claimed.",
+  "sensitivity": {
+    "concentration_scale": [
+      0.5,
+      2.0
+    ],
+    "loss_sigma_scale": [
+      0.5,
+      1.5
+    ],
+    "recording_burden_scale": [
+      0.5,
+      1.5
+    ]
+  },
+  "publication": "No external posting or DOI creation performed. Author identities, contributions, funding, conflicts and license require factual confirmation."
+}

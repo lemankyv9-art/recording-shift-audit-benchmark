@@ -1,0 +1,171 @@
+{
+  "priors_pct": {
+    "slight": 75.161,
+    "serious": 23.351,
+    "fatal": 1.488
+  },
+  "majority_baseline_acc": 0.7516,
+  "n_collisions": 100927,
+  "cost_window": [
+    7,
+    50
+  ],
+  "break_points": {
+    "last_c_beats_none": 6,
+    "first_c_beats_allsevere": 1
+  },
+  "tasks": {
+    "fatal_vs_rest": {
+      "n": 100927,
+      "pos_rate": 0.0149,
+      "AUROC": 0.7575,
+      "AP": 0.0498,
+      "top_decile_coverage": 0.3609
+    },
+    "fats_vs_slight": {
+      "n": 100927,
+      "pos_rate": 0.2484,
+      "AUROC": 0.6355,
+      "AP": 0.3686,
+      "top_decile_coverage": 0.1834
+    }
+  },
+  "missing_gradient": [
+    {
+      "field": "local_authority_district",
+      "fatal_%": 100.0,
+      "serious_%": 100.0,
+      "slight_%": 100.0,
+      "spearman_rho(sev,missing)": NaN,
+      "p_value": NaN
+    },
+    {
+      "field": "junction_detail_historic",
+      "fatal_%": 69.973,
+      "serious_%": 67.544,
+      "slight_%": 56.201,
+      "spearman_rho(sev,missing)": -1.0,
+      "p_value": 0.0
+    },
+    {
+      "field": "pedestrian_crossing_human_control_historic",
+      "fatal_%": 69.907,
+      "serious_%": 67.145,
+      "slight_%": 55.926,
+      "spearman_rho(sev,missing)": -1.0,
+      "p_value": 0.0
+    },
+    {
+      "field": "carriageway_hazards_historic",
+      "fatal_%": 69.907,
+      "serious_%": 67.145,
+      "slight_%": 55.928,
+      "spearman_rho(sev,missing)": -1.0,
+      "p_value": 0.0
+    },
+    {
+      "field": "special_conditions_at_site",
+      "fatal_%": 69.907,
+      "serious_%": 67.145,
+      "slight_%": 55.927,
+      "spearman_rho(sev,missing)": -1.0,
+      "p_value": 0.0
+    },
+    {
+      "field": "pedestrian_crossing_physical_facilities_historic",
+      "fatal_%": 69.907,
+      "serious_%": 67.157,
+      "slight_%": 55.931,
+      "spearman_rho(sev,missing)": -1.0,
+      "p_value": 0.0
+    },
+    {
+      "field": "junction_control",
+      "fatal_%": 65.313,
+      "serious_%": 46.255,
+      "slight_%": 40.469,
+      "spearman_rho(sev,missing)": -1.0,
+      "p_value": 0.0
+    },
+    {
+      "field": "second_road_number",
+      "fatal_%": 41.744,
+      "serious_%": 24.632,
+      "slight_%": 23.179,
+      "spearman_rho(sev,missing)": -1.0,
+      "p_value": 0.0
+    },
+    {
+      "field": "enhanced_severity_collision",
+      "fatal_%": 30.093,
+      "serious_%": 32.855,
+      "slight_%": 44.076,
+      "spearman_rho(sev,missing)": 1.0,
+      "p_value": 0.0
+    },
+    {
+      "field": "second_road_class",
+      "fatal_%": 23.435,
+      "serious_%": 12.959,
+      "slight_%": 10.231,
+      "spearman_rho(sev,missing)": -1.0,
+      "p_value": 0.0
+    },
+    {
+      "field": "trunk_road_flag",
+      "fatal_%": 15.246,
+      "serious_%": 10.846,
+      "slight_%": 5.662,
+      "spearman_rho(sev,missing)": -1.0,
+      "p_value": 0.0
+    },
+    {
+      "field": "junction_detail",
+      "fatal_%": 2.597,
+      "serious_%": 4.718,
+      "slight_%": 7.717,
+      "spearman_rho(sev,missing)": 1.0,
+      "p_value": 0.0
+    },
+    {
+      "field": "pedestrian_crossing",
+      "fatal_%": 0.067,
+      "serious_%": 0.628,
+      "slight_%": 1.167,
+      "spearman_rho(sev,missing)": 1.0,
+      "p_value": 0.0
+    },
+    {
+      "field": "road_surface_conditions",
+      "fatal_%": 0.067,
+      "serious_%": 0.31,
+      "slight_%": 0.83,
+      "spearman_rho(sev,missing)": 1.0,
+      "p_value": 0.0
+    },
+    {
+      "field": "carriageway_hazards",
+      "fatal_%": 0.067,
+      "serious_%": 0.204,
+      "slight_%": 0.49,
+      "spearman_rho(sev,missing)": 1.0,
+      "p_value": 0.0
+    },
+    {
+      "field": "speed_limit",
+      "fatal_%": 0.0,
+      "serious_%": 0.004,
+      "slight_%": 0.003,
+      "spearman_rho(sev,missing)": 0.5,
+      "p_value": 0.6667
+    },
+    {
+      "field": "light_conditions",
+      "fatal_%": 0.0,
+      "serious_%": 0.013,
+      "slight_%": 0.004,
+      "spearman_rho(sev,missing)": 0.5,
+      "p_value": 0.6667
+    }
+  ]
+}

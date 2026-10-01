@@ -1,0 +1,10 @@
+metric,value
+n_collisions,100927.0
+IBRS_n,59297.0
+IBRS_share%,58.75
+raw_serious_n,23567.0
+raw_serious_share%,23.35
+adjusted_serious_sum,24693.0
+adjusted_serious_share%,24.47
+raw_serious_share%_IBRS1,26.69
+raw_serious_share%_IBRS0,18.6

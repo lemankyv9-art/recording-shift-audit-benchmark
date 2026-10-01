@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "executed_assertions": 33638,
+  "datasets": 90,
+  "fit_attempts": 23337,
+  "scope": "all datasets including external rows, role and loss accounting, masks, paired scenarios, input hashes, stored predictions and all four metrics, class recalls, metrics.csv, summary.csv, paired_differences.csv",
+  "external_validity": "not established by internal checks"
+}

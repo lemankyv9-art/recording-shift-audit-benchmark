@@ -1,0 +1,17 @@
+{
+  "scope": "large-sample empirical conditional-pattern reference, not an analytic Bayes bound",
+  "scenario": "covariate_shift",
+  "training_records": 500000,
+  "evaluation_records": 200000,
+  "seed": 4242,
+  "observed_factor_space": "20 recorded binary flags",
+  "accuracy": 0.58247,
+  "high_major_auroc": 0.59576,
+  "class_recall": {
+    "low": 0.90975,
+    "medium": 0.16852,
+    "high": 0.01398,
+    "major": 0.00249
+  },
+  "interpretation": "The large-sample conditional-pattern rule remains unable to obtain useful hard-label recall for high and major classes. It is a finite Monte Carlo reference for the declared generator, not a universal performance ceiling."
+}

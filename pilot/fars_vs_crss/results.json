@@ -1,0 +1,72 @@
+{
+  "severity_prior": {
+    "n": 53955,
+    "distribution": {
+      "No Apparent Injury (O)": 25961,
+      "Possible Injury (C)": 11118,
+      "Suspected Minor Injury (B)": 8703,
+      "Suspected Serious Injury (A)": 5786,
+      "Fatal Injury (K)": 1284,
+      "Unknown/Not Reported": 975,
+      "Injured, Severity Unknown": 104,
+      "No person involved": 21,
+      "Died Prior to Crash*": 3
+    },
+    "majority_class": "No Apparent Injury (O)",
+    "majority_baseline_acc": 0.4812
+  },
+  "workzone_type_unknown_pct_among_WZ": {
+    "FARS": 0.74,
+    "CRSS": 1.17
+  },
+  "domain_A_unknown_as_level": {
+    "n_per_class": 1284,
+    "AUROC_mean": 0.6725,
+    "AUROC_sd": 0.0398,
+    "folds": [
+      0.6582,
+      0.7017,
+      0.6871,
+      0.7136,
+      0.6021
+    ],
+    "AP_mean": 0.6337
+  },
+  "domain_C_complete_case": {
+    "n_per_class": 1125,
+    "AUROC_mean": 0.6842,
+    "AUROC_sd": 0.0066,
+    "folds": [
+      0.6926,
+      0.6826,
+      0.6824,
+      0.6737,
+      0.6897
+    ],
+    "AP_mean": 0.6429
+  },
+  "domain_full_FARS": {
+    "AUROC_mean": 0.6866,
+    "AUROC_sd": 0.0238,
+    "AP_mean": 0.9783
+  },
+  "domain_multiseed": {
+    "seeds": [
+      0,
+      1,
+      7,
+      42,
+      123
+    ],
+    "AUROC_range": [
+      0.666,
+      0.676
+    ]
+  },
+  "crss_fatal_weighted": {
+    "rural_pct": 36.3,
+    "single_vehicle_pct": 57.8,
+    "estimated_fatal_crashes": 36853,
+    "fars_census_fatal_crashes": 39422
+  }
+}

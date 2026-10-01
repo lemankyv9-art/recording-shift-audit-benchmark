@@ -1,0 +1,3908 @@
+[
+  {
+    "stage": "logistic:source:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 343,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      22
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:source:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 343,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      22
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:source:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 343,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      22
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:source:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 343,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      54
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:source:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 343,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      54
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:source:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 343,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      54
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:source:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 343,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      135
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:source:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 343,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      135
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:source:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 343,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      135
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic_source:final",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 343,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      22
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:target:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 24,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      21
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:target:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 24,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      13
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:target:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 24,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      22
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:target:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 24,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      21
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:target:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 24,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      19
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:target:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 24,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      22
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:target:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 24,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      38
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:target:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 24,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      38
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:target:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 24,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      44
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic_target:final",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 36,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      21
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:pooling:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      21
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:pooling:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      20
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:pooling:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      20
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:pooling:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      49
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:pooling:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      53
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:pooling:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      46
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:pooling:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      129
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:pooling:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      129
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:pooling:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      138
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic_pooling:final",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 379,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      21
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:weighted:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      23
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:weighted:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      23
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:weighted:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      26
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:weighted:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      60
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:weighted:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      50
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:weighted:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      51
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:weighted:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      153
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:weighted:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      142
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic:weighted:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      167
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "logistic_weighted:final",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 379,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      23
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:source:CV:0",
+    "kind": "mlp",
+    "parameter": 0.1,
+    "seed": 0,
+    "n": 343,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      3441
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:source:CV:1",
+    "kind": "mlp",
+    "parameter": 0.1,
+    "seed": 0,
+    "n": 343,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      3441
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:source:CV:2",
+    "kind": "mlp",
+    "parameter": 0.1,
+    "seed": 0,
+    "n": 343,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      3441
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:source:CV:0",
+    "kind": "mlp",
+    "parameter": 1.0,
+    "seed": 0,
+    "n": 343,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      588
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:source:CV:1",
+    "kind": "mlp",
+    "parameter": 1.0,
+    "seed": 0,
+    "n": 343,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      588
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:source:CV:2",
+    "kind": "mlp",
+    "parameter": 1.0,
+    "seed": 0,
+    "n": 343,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      588
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:source:CV:0",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 0,
+    "n": 343,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      119
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:source:CV:1",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 0,
+    "n": 343,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      119
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:source:CV:2",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 0,
+    "n": 343,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      119
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp_source:final",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 0,
+    "n": 343,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      119
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp_source:final",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 1,
+    "n": 343,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      169
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp_source:final",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 2,
+    "n": 343,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      167
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:target:CV:0",
+    "kind": "mlp",
+    "parameter": 0.1,
+    "seed": 0,
+    "n": 24,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      227
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:target:CV:1",
+    "kind": "mlp",
+    "parameter": 0.1,
+    "seed": 0,
+    "n": 24,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      132
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:target:CV:2",
+    "kind": "mlp",
+    "parameter": 0.1,
+    "seed": 0,
+    "n": 24,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      161
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:target:CV:0",
+    "kind": "mlp",
+    "parameter": 1.0,
+    "seed": 0,
+    "n": 24,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      91
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:target:CV:1",
+    "kind": "mlp",
+    "parameter": 1.0,
+    "seed": 0,
+    "n": 24,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      116
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:target:CV:2",
+    "kind": "mlp",
+    "parameter": 1.0,
+    "seed": 0,
+    "n": 24,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      91
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:target:CV:0",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 0,
+    "n": 24,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      70
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:target:CV:1",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 0,
+    "n": 24,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      79
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:target:CV:2",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 0,
+    "n": 24,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      79
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp_target:final",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 0,
+    "n": 36,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      55
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp_target:final",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 1,
+    "n": 36,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      51
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp_target:final",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 2,
+    "n": 36,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      62
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:pooling:CV:0",
+    "kind": "mlp",
+    "parameter": 0.1,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      1830
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:pooling:CV:1",
+    "kind": "mlp",
+    "parameter": 0.1,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      1808
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:pooling:CV:2",
+    "kind": "mlp",
+    "parameter": 0.1,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      1631
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:pooling:CV:0",
+    "kind": "mlp",
+    "parameter": 1.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      501
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:pooling:CV:1",
+    "kind": "mlp",
+    "parameter": 1.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      1155
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:pooling:CV:2",
+    "kind": "mlp",
+    "parameter": 1.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      707
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:pooling:CV:0",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      239
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:pooling:CV:1",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      405
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:pooling:CV:2",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      198
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp_pooling:final",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 0,
+    "n": 379,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      209
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp_pooling:final",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 1,
+    "n": 379,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      203
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp_pooling:final",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 2,
+    "n": 379,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      152
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:weighted:CV:0",
+    "kind": "mlp",
+    "parameter": 0.1,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      1875
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:weighted:CV:1",
+    "kind": "mlp",
+    "parameter": 0.1,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      1272
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:weighted:CV:2",
+    "kind": "mlp",
+    "parameter": 0.1,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      2808
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:weighted:CV:0",
+    "kind": "mlp",
+    "parameter": 1.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      800
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:weighted:CV:1",
+    "kind": "mlp",
+    "parameter": 1.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      423
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:weighted:CV:2",
+    "kind": "mlp",
+    "parameter": 1.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      1146
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:weighted:CV:0",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      239
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:weighted:CV:1",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      214
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp:weighted:CV:2",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      322
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp_weighted:final",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 0,
+    "n": 379,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      286
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp_weighted:final",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 1,
+    "n": 379,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      256
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "mlp_weighted:final",
+    "kind": "mlp",
+    "parameter": 10.0,
+    "seed": 2,
+    "n": 379,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      341
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:1.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      17
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:1.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:1.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      17
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:1.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      35
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:1.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      32
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:1.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      29
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:1.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      61
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:1.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      65
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:1.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      67
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:1.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      17
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:1.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:1.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      17
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:1.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      36
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:1.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      44
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:1.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      33
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:1.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      80
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:1.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      86
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:1.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      80
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:1.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:1.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:1.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:1.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      38
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:1.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      39
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:1.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      36
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:1.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      97
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:1.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      112
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:1.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      112
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:1.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      17
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:1.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:1.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      17
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:1.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      33
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:1.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      31
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:1.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      31
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:1.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      68
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:1.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      72
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:1.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      59
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:1.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:1.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:1.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:1.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      35
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:1.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      36
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:1.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      34
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:1.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      67
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:1.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      78
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:1.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      75
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:1.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:1.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:1.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:1.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      38
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:1.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      39
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:1.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      36
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:1.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      98
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:1.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      98
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:1.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      104
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:3.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      17
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:3.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      19
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:3.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      17
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:3.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      28
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:3.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      29
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:3.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      27
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:3.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      60
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:3.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      43
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:3.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      46
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:3.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:3.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      20
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:3.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:3.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      30
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:3.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      33
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:3.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      29
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:3.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      78
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:3.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      87
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:3.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      73
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:3.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      17
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:3.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      20
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:3.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:3.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      42
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:3.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      36
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:3.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      42
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:3.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      97
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:3.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      113
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:3.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      116
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:3.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:3.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      20
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:3.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      17
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:3.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      27
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:3.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      28
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:3.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      27
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:3.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      54
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:3.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      52
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:3.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      39
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:3.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:3.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      19
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:3.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:3.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      30
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:3.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      36
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:3.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      29
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:3.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      82
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:3.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      95
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:3.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      61
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:3.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      17
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:3.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      20
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:3.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:3.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      42
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:3.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      36
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:3.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      42
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:3.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      99
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:3.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      111
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:3.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      124
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:10.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      17
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:10.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      19
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:10.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:10.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      25
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:10.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      29
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:10.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      26
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:10.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      40
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:10.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      49
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:10.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      45
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:10.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      19
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:10.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      19
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:10.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:10.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      28
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:10.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      38
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:10.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      32
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:10.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      75
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:10.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      79
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:10.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      76
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:10.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      17
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:10.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      20
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:10.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:10.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      41
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:10.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      35
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:10.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      37
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:10.0:0.1:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      117
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:10.0:0.1:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      113
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:10.0:0.1:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      121
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:10.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      17
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:10.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      19
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:10.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:10.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      25
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:10.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      29
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:10.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      26
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:10.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      38
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:10.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      49
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:5:10.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      45
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:10.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      19
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:10.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      19
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:10.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:10.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      28
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:10.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      38
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:10.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      32
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:10.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      81
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:10.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      81
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:10:10.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 10,
+    "budget": 6000,
+    "iterations": [
+      78
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:10.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      17
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:10.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      20
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:10.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:10.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      41
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:10.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      35
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:10.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      37
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:10.0:1.0:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      117
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:10.0:1.0:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      113
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "TCA:20:10.0:1.0:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      119
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "tca:final",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 379,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      32
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "pca:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "pca:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "pca:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      17
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "pca:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      28
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "pca:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      28
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "pca:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      26
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "pca:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      54
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "pca:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      48
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "pca:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      50
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "pca:final",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 379,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      26
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "kpca:CV:0",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      16
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "kpca:CV:1",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      18
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "kpca:CV:2",
+    "kind": "logistic",
+    "parameter": 0.03,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      17
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "kpca:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      33
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "kpca:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      41
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "kpca:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      32
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "kpca:CV:0",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      65
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "kpca:CV:1",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      66
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "kpca:CV:2",
+    "kind": "logistic",
+    "parameter": 3.0,
+    "seed": 0,
+    "n": 367,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      59
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "kpca:final",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 379,
+    "p": 5,
+    "budget": 6000,
+    "iterations": [
+      32
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "count_only:final",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 379,
+    "p": 1,
+    "budget": 6000,
+    "iterations": [
+      19
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "complete_factors:final",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 379,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      44
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "context_augmented:final",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 379,
+    "p": 27,
+    "budget": 6000,
+    "iterations": [
+      63
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "row:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 171,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      40
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "row:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 172,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      46
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "pattern_group:CV:0",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 228,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      45
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "pattern_group:CV:1",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 229,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      50
+    ],
+    "converged": true,
+    "warnings": []
+  },
+  {
+    "stage": "pattern_group:CV:2",
+    "kind": "logistic",
+    "parameter": 0.3,
+    "seed": 0,
+    "n": 229,
+    "p": 20,
+    "budget": 6000,
+    "iterations": [
+      23
+    ],
+    "converged": true,
+    "warnings": []
+  }
+]

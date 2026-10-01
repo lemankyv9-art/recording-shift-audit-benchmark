@@ -1,0 +1,18 @@
+{
+  "design": "Secondary exploratory analyses added after the primary run; no changes to primary data, hyperparameters or comparisons.",
+  "learning_sizes": [
+    12,
+    24,
+    36,
+    72,
+    121
+  ],
+  "learning_evaluation": "2,000-row independent cohort only; target prefixes 72/121 reuse primary holdout rows for training, so no primary holdout scores are reported for those fits.",
+  "selection": "Same log-loss target CV as primary for target and pooling logistic; all prefixes fixed; no choice by independent-cohort results.",
+  "repeats": 30,
+  "scenarios": [
+    "stationary",
+    "covariate_shift",
+    "conditional_shift"
+  ]
+}

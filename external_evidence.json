@@ -1,0 +1,83 @@
+{
+  "access_date": "2026-09-29",
+  "selection": "Purposive public-report examples, labelled Reports A--F for readability. Names, locations, dates and URLs are omitted from the published package. None of these reports is a row in the generated matrices.",
+  "reports": [
+    {
+      "id": "report_a",
+      "title": "Public investigation report A",
+      "publisher": "Public authority (anonymized)",
+      "fatalities": 1,
+      "loss_million_cny": 0.5796,
+      "components_million_cny": {
+        "casualty_expenditure": 0.09,
+        "aftermath": 0.4888,
+        "property": 0.0008
+      },
+      "use": "Direct loss comprises more than property. Component boundaries differ from our illustrative decomposition.",
+      "display_alias": "Report A"
+    },
+    {
+      "id": "report_b",
+      "title": "Public investigation report B",
+      "publisher": "Public authority (anonymized)",
+      "fatalities": 1,
+      "injured": 1,
+      "loss_million_cny": 1.1,
+      "use": "One-fatality road-freight collision loss scale; not a compensation schedule.",
+      "display_alias": "Report B"
+    },
+    {
+      "id": "report_c",
+      "title": "Public investigation report C",
+      "publisher": "Public authority (anonymized)",
+      "fatalities": 3,
+      "loss_million_cny": 4.66,
+      "use": "Truck/tanker collision; total loss is not a pure fatality cost.",
+      "display_alias": "Report C"
+    },
+    {
+      "id": "report_d",
+      "title": "Public investigation report D",
+      "publisher": "Public authority (anonymized)",
+      "fatalities": 20,
+      "injured": 19,
+      "loss_million_cny": 19.91,
+      "use": "External persons can be exposed in a truck collision with a crowd; totals are descriptive.",
+      "display_alias": "Report D"
+    },
+    {
+      "id": "report_e",
+      "title": "Public investigation report E",
+      "publisher": "Public authority (anonymized)",
+      "fatalities": 54,
+      "injured_as_reported": 6,
+      "injury_definition_note": "Opening paragraph says six injured, including four who subsequently died. Do not treat six as an unambiguous disjoint final injury count.",
+      "loss_million_cny_approx": 53.0,
+      "use": "Tanker/cargo fire and bus involvement can produce mass casualties; no reproduction of a report row.",
+      "display_alias": "Report E"
+    },
+    {
+      "id": "report_f",
+      "title": "Public investigation report F",
+      "publisher": "Public authority (anonymized)",
+      "fatalities": 20,
+      "hospitalized": 175,
+      "serious_injuries": 24,
+      "loss_million_cny": 94.77815,
+      "use": "Community exposure and damage to surrounding property; extreme-event example, not a population maximum.",
+      "display_alias": "Report F"
+    }
+  ],
+  "quantitative_status": "No distribution is fitted to these six reports. All mixture weights, factor rates, component coefficients and shift sizes remain explicit assumptions. Cross-year monetary amounts are not pooled as inflation-adjusted estimates.",
+  "audit_note": "The original public source ledger and access URLs remain in the internal revision workspace. The published package retains only anonymized mechanism examples and the fact that retrieval checks were performed.",
+  "last_access_check_date": "2026-09-29",
+  "last_access_check": {
+    "report_a": "HTTP 200",
+    "report_b": "HTTP 403",
+    "report_c": "connection reset during final check",
+    "report_d": "HTTP 200",
+    "report_e": "TLS transport failure during final check",
+    "report_f": "HTTP 420"
+  },
+  "anonymization": "The clean ledger omits real accident names, locations, dates, publishers and URLs."
+}

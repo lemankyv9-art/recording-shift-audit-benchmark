@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "primary_cost_means": {
+    "severe_recall": 0.354414166992325,
+    "severe_precision": 0.13730470865455635,
+    "marked_fraction": 0.23263333333333333,
+    "severe_prevalence": 0.08766666666666666,
+    "cost_loss": 0.7673833333333333
+  },
+  "constant_cost_means": {
+    "prevalence": 0.08766666666666666,
+    "mark_none": 0.8766666666666666,
+    "mark_all": 0.9123333333333333
+  },
+  "primary_auroc_checks": 180,
+  "calibration_table_rows_checked": 4,
+  "paired_source_comparison_replicates": 30,
+  "learning_table_rows_checked": 6,
+  "decision_cost_table_rows_checked": 7,
+  "factorial_contrasts_checked": 3290,
+  "scope": "Stored primary predictions, calibration and decision-cost tables, selection means, and seed-level factorial intervals; no refitting or data generation."
+}
